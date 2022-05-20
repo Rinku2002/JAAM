@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 3%;
+  background-color: rgb(103, 198, 241) !important;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg{
+  background-image: url('https://tse3.mm.bing.net/th?id=OIP.ebsIyy6EdOLRRsLmGRqsbwHaEK&pid=Api&P=0&w=300&h=300');
+  background-size: 100%;
+}
+.yt{
+  height: 250px !important;
+  margin-left: auto;
+}
+.nav{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 1000;
+}
+.login{
+  font-family: 'Ramaraja', serif;
+  font-weight: 900 !important;
+}
+.course:hover{
+  transform: scale(1.1);
+}
+.head{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(255, 255, 0, 0.801);
 }

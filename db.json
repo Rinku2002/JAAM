@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "username": "rinku_2002",
+      "email": "gangishettyrinku@gmail.com",
+      "password": " ",
+      "cpassword": " ",
+      "terms": true,
+      "id": 1
+    },
+    {
+      "username": "manideep",
+      "email": "gangishettymanideep@gmail.com",
+      "password": " ",
+      "cpassword": " ",
+      "terms": true,
+      "id": 2
+    },
+    {
+      "username": "rinku",
+      "email": "innocentd246@gmail.com",
+      "password": " ",
+      "cpassword": " ",
+      "terms": true,
+      "id": 3
+    },
+    {
+      "username": "anil",
+      "email": "anilreddy@gmail.com",
+      "password": " ",
+      "cpassword": " ",
+      "terms": true,
+      "id": 4
+    },
+    {
+      "username": "anuraag",
+      "email": "anuraag@gmail.com",
+      "password": " ",
+      "cpassword": " ",
+      "terms": true,
+      "id": 5
+    }
+  ],
+  "courses": [
+    {
+      "name": "Web Development",
+      "tnumbnail": "https://www.sapphirewebsolutions.com/wp-content/uploads/2019/09/Web-Development-Trends.jpg",
+      "description": "Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites",
+      "sources": [
+        {
+          "name": "Basics",
+          "link": "https://www.youtube.com/embed/l1EssrLxt7E?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+        },
+        {
+          "name": "Intro",
+          "link": "https://www.youtube.com/embed/Rek0NWPCNOc?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+        },
+        {
+          "name": "HTML",
+          "link": "https://www.youtube.com/embed/2QR11oDukn4?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+        },
+        {
+          "name": "Media Elements",
+          "link": "https://www.youtube.com/embed/jRAZlTEZi9I?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+        },
+        {
+          "name": "Structuring a mega project",
+          "link": "https://www.youtube.com/embed/61ppyY5rUB0?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+        }
+      ]
+    },
+    {
+      "name": "Machine learning",
+      "tnumbnail": "https://www.vertica.com/wp-content/uploads/2019/04/Machine_learning_199085055.jpeg",
+      "description": "Machine learning (ML) is the study of computer algorithms that can improve automatically through experience and by the use of data.[1] It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.[2",
+      "sources": [
+        {
+          "name": "Basics",
+          "link": "https://www.youtube.com/embed/gmvvaobm7eQ?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"
+        },
+        {
+          "name": "Intro",
+          "link": "https://www.youtube.com/embed/8jazNUpO3lQ?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"
+        },
+        {
+          "name": "Linear Regression",
+          "link": "https://www.youtube.com/embed/J_LnPL3Qg70?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"
+        },
+        {
+          "name": "Gradient Descent and Cost Function",
+          "link": "https://www.youtube.com/embed/vsWrXfO3wWw?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"
+        },
+        {
+          "name": " Save Model Using Joblib And Pickle",
+          "link": "https://www.youtube.com/embed/KfnhNlD8WZI?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw"
+        }
+      ]
+    },
+    {
+      "name": "Programming with python",
+      "tnumbnail": "https://www.abhijitpatra.com/wp-content/uploads/2021/05/79386213.jpg",
+      "description": "Python is currently the most widely used multi-purpose, high-level programming language. Python allows programming in Object-Oriented and Procedural paradigms. Python programs generally are smaller than other programming languages like Java.",
+      "sources": [
+        {
+          "name": "Basics",
+          "link": "https://www.youtube.com/embed/eykoKxsYtow?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0"
+        },
+        {
+          "name": "Intro",
+          "link": "https://www.youtube.com/embed/6lBPM-MiGNI?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0"
+        },
+        {
+          "name": "Variables in python",
+          "link": "https://www.youtube.com/embed/8tCe1P_cgoY?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0"
+        },
+        {
+          "name": "Numbers",
+          "link": "https://www.youtube.com/embed/pd2_ZbhFT38?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0"
+        },
+        {
+          "name": "Strings",
+          "link": "https://www.youtube.com/embed/ez2N-hcwvcQ?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0"
+        },
+        {
+          "name": "Lists",
+          "link": "https://www.youtube.com/embed/t0UTQ1eOH_g?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0"
+        }
+      ]
+    },
+    {
+      "name": "Data Structures",
+      "tnumbnail": "https://cdn-images-1.medium.com/max/1200/1*s6hhrgR5_tXpO_j7uKaHMw.png",
+      "description": "A data structure is a particular way of organizing data in a computer so that it can be used effectively. For example, we can store a list of items having the same data-type using the array data structure. This page contains detailed tutorials on different data structures with topic-wise problems.",
+      "sources": [
+        {
+          "name": "Introduction",
+          "link": "https://www.youtube.com/embed/5_5oE5lgrhw?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+        },
+        {
+          "name": "Time Complexity and Big O Notation",
+          "link": "https://www.youtube.com/embed/vgSKOMsjLbc?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+        },
+        {
+          "name": "Arrays and Abstract Data Type",
+          "link": "https://www.youtube.com/embed/bR0NYdmMg94?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+        },
+        {
+          "name": "Linked lists",
+          "link": "https://www.youtube.com/embed/TWMCMvfEAv4?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+        },
+        {
+          "name": "Circular Linked lists",
+          "link": "https://www.youtube.com/embed/41lXYJID3OQ?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+        },
+        {
+          "name": "Stack",
+          "link": "https://www.youtube.com/embed/-n2rVJE4vto?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+        }
+      ]
+    },
+    {
+      "name": "Data Science",
+      "tnumbnail": "https://www.atulhost.com/wp-content/uploads/2019/08/data-science.jpg",
+      "description": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data,[1][2] and apply knowledge and actionable insights from data across a broad range of application domains. Data science is related to data mining, machine learning and big data.",
+      "sources": [
+        {
+          "name": "Introduction",
+          "link": "https://www.youtube.com/embed/JL_grPUnXzY?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV"
+        },
+        {
+          "name": "Python",
+          "link": "https://www.youtube.com/embed/6lBPM-MiGNI?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV"
+        },
+        {
+          "name": "Numpy",
+          "link": "https://www.youtube.com/embed/a8aDcLk4vRc?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV"
+        },
+        {
+          "name": "Pandas",
+          "link": "https://www.youtube.com/embed/CmorAWRsCAw?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV"
+        },
+        {
+          "name": "Matplotlib",
+          "link": "https://www.youtube.com/embed/qqwf4Vuj8oM?list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV"
+        }
+      ]
+    },
+    {
+      "name": "MatLab",
+      "tnumbnail": "https://canvas.rutgers.edu/wp-content/uploads/2020/07/mathlab_logo.png",
+      "description": "What Is MATLAB?. Video length is 1:37. What Is MATLAB? Designed for the way you think and the work you do. MATLAB ® combines a desktop environment tuned for iterative analysis and design processes with a programming language that expresses matrix and array mathematics directly.",
+      "sources": [
+        {
+          "name": "Introduction",
+          "link": "https://www.youtube.com/embed/0x4JhS1YpzI?list=PLjVLYmrlmjGcNZrPa9bRg0JVlcxLX4Mu9"
+        },
+        {
+          "name": "Variables & Matrix",
+          "link": "https://www.youtube.com/embed/i4I4lfH9Bnk?list=PLjVLYmrlmjGcNZrPa9bRg0JVlcxLX4Mu9"
+        },
+        {
+          "name": "Solving Mathematical Expression",
+          "link": "https://www.youtube.com/embed/MEoxU-NuxuM?list=PLjVLYmrlmjGcNZrPa9bRg0JVlcxLX4Mu9"
+        },
+        {
+          "name": "Sinusoidal Signal Generation",
+          "link": "https://www.youtube.com/embed/p7QsdJI2Ftg?list=PLjVLYmrlmjGcNZrPa9bRg0JVlcxLX4Mu9"
+        },
+        {
+          "name": "Plotting Graph",
+          "link": "https://www.youtube.com/embed/BIYHslj5BxE?list=PLjVLYmrlmjGcNZrPa9bRg0JVlcxLX4Mu9"
+        },
+        {
+          "name": "Specify Colors & Markers",
+          "link": "https://www.youtube.com/embed/l8wQcGOqGSo?list=PLjVLYmrlmjGcNZrPa9bRg0JVlcxLX4Mu9"
+        }
+      ]
+    }
+  ],
+  "contactus": [
+    {
+      "name": "GANGISHETTY MANIDEEP",
+      "email": "gangishettyrinku@gmail.com",
+      "subject": "ILl",
+      "message": "asdfg",
+      "id": 1
+    },
+    {
+      "name": "GANGISHETTY MANIDEEP",
+      "email": "gangishettyrinku@gmail.com",
+      "subject": "ILl",
+      "message": "asdfg",
+      "id": 2
+    },
+    {
+      "name": "GANGISHETTY MANIDEEP",
+      "email": "gangishettyrinku@gmail.com",
+      "subject": "ASDF",
+      "message": "sdfghjk",
+      "id": 3
+    }
+  ]
+}
