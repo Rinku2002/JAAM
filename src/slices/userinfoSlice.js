@@ -12,4 +12,5 @@ export const info=createSlice({
 })
 export const {addinfo}=info.actions
 
+//imported as uiReducer
 export default info.reducer
