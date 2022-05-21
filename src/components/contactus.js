@@ -8,10 +8,15 @@ function Contactus() {
         //post request
         const axios = require('axios');
         if(check==false){
-            let response=await axios.post("http://localhost:5000/contactus",data);
-            if(response.status==201){
+            let response=await axios.post("/contactus-api/send",data);
+            console.log(response.status)
+            if(response.status==200){
                 ccheck(true)
                 check=true
+                alert("Form Submitted!");
+            }
+            else{
+                alert("Something went wrong!")
             }
         }
     }
@@ -45,7 +50,7 @@ function Contactus() {
                             Submit Form
                         </button>
                     </form>
-                    {check && <p className='p-3'>Form Submitted successfully!</p>}
+                    {check && <p className='p-3 text-danger'>Form submitted successfully!</p>}
                 </div>
             </div>
         </div>

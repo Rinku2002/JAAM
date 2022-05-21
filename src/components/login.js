@@ -17,21 +17,20 @@ function Login() {
   let ui=useSelector(state=>state.ui)
   const submit=async (data)=>{
       const axios = require('axios');
-      const d =await axios.get("http://localhost:5000/users");
-      let dd=d.data;
-      for(let i=0;i<dd.length;i++){
-        if(dd[i].email==data.email && dd[i].password==data.password){
-          changecheck(true)
-          console.log(dd[i])
-          console.log("success")
-          let actionObj=addinfo({...dd[i],s:true})
-          dispatch(actionObj)
-          console.log("action",actionObj)
-          navigate("/courses")
-          break;
-        }
+      const d =await axios.post("/user-api/login",data);
+      if(d.data.message==="success"){
+        changecheck(true)
+        console.log(d.data.userObj)
+        console.log("success")
+        let actionObj=addinfo({...d.data.userObj,s:true})
+        dispatch(actionObj)
+        console.log("action",actionObj)
+        navigate("/courses")
       }
-      changecheck(true)
+      else{
+        changecheck(true)
+        alert(d.data.message)
+      }
   }
     return(
         <>

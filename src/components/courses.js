@@ -15,9 +15,9 @@ function Courses() {
     let navigate=useNavigate()
     let [dd,setdd]=useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/courses')
+        fetch('/courses-api/courses')
         .then(response => response.json())
-        .then(data => setdd(data))
+        .then(data => setdd(data.payload))
       },[])
       function funcc(v){
           let actionObj=addcinfo(v)

@@ -12,25 +12,15 @@ function Signup() {
   const submit= async (data)=>{
       changecheck(false)
       const axios = require('axios');
-      const d =await axios.get("http://localhost:5000/users");
-      let dd=d.data;
+      const d =await axios.post("/user-api/create-user",data);
       
-      console.log(dd,data)
-      for(let i=0;i<dd.length;i++){
-        console.log(dd[i].email,data.email)
-        if (dd[i].email==data.email){
-          changecheck(true)
-          check=true
-          break;
-        }
+      if(d.data.message==="New User created"){
+        alert("User created!")
+        navigate("/login")
       }
-      console.log(check)
-      if(check==false){
-        //post request
-        let response=await axios.post("http://localhost:5000/users",data);
-        if(response.status==201){
-          navigate("/login")
-        }
+      else if(d.data.message==="email already exists"){
+        changecheck(true)
+        check=true
       }
   }
   return (

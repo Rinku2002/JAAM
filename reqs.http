@@ -1,0 +1,41 @@
+
+###
+POST http://localhost:4000/courses-api/postcourse
+Content-Type: application/json
+
+{
+  //insert here
+}
+###
+POST http://localhost:4000/contactus-api/contactus
+Content-Type: application/json
+
+{
+  "name":"Mani",
+  "email":"gangishettyrinku@gmail.com",
+  "subject":"Technical issue",
+  "message":"Webpage loading speed is low"
+}
+###
+GET http://localhost:4000/courses-api/courses
+
+###
+POST http://localhost:4000/user-api/login
+Content-Type: application/json
+    
+{
+  "email": "gangishettyrinku@gmail.com",
+  "password": " "
+}
+###
+POST http://localhost:4000/user-api/create-user
+Content-Type: application/json
+    
+{
+  "username": "rinku_2002",
+  "email": "gangishettyrinku@gmail.com",
+  "password": " ",
+  "cpassword": " ",
+  "terms": true,
+  "id": 1
+}
