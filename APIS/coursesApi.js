@@ -13,11 +13,11 @@ coursesApp.get(
   "/courses",
   expressAsyncHandler(async (request, response) => {
     //get coursesCollectionObject
-    let studentCollectionObject = request.app.get("coursesCollectionObject");
+    let coursesCollectionObject = request.app.get("coursesCollectionObject");
     //get all courses
-    let student = await studentCollectionObject.find().toArray();
+    let courses = await coursesCollectionObject.find().toArray();
     //send res
-    response.send({ message: "courses list", payload: student });
+    response.send({ message: "courses list", payload: courses });
   })
 );
 
