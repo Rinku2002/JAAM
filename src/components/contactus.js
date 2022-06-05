@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { useState } from 'react'
 
-function Contactus() {    
+function Contactus() {
     const {register,handleSubmit,formState:{errors}}=useForm()
     let [check,ccheck]=useState(false)
     const submit= async (data)=>{
