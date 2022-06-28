@@ -20,11 +20,8 @@ function Login() {
       const d =await axios.post("/user-api/login",data);
       if(d.data.message==="success"){
         changecheck(true)
-        console.log(d.data.userObj)
-        console.log("success")
         let actionObj=addinfo({...d.data.userObj,s:true})
         dispatch(actionObj)
-        console.log("action",actionObj)
         navigate("/courses")
       }
       else{
