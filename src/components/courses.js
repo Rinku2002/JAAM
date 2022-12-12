@@ -27,13 +27,9 @@ function Courses() {
           let actionObj=addcinfo(v)
           dispatch(actionObj)
       }
-    console.log(dd)
     return(
         <>
-        {state?
-        <div>
-            <p>Loading</p>
-        </div>:
+        {
         <div>
             {ui.length==0 ?
             <div>

@@ -5,6 +5,32 @@ Content-Type: application/json
 
 {
   //insert here
+  "name": "Web Development",
+  "tnumbnail": "https://www.sapphirewebsolutions.com/wp-content/uploads/2019/09/Web-Development-Trends.jpg",
+  "description": "Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites",
+  "sources": [
+    {
+      "name": "Basics",
+      "link": "https://www.youtube.com/embed/l1EssrLxt7E?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+    },
+    {
+      "name": "Intro",
+      "link": "https://www.youtube.com/embed/Rek0NWPCNOc?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+    },
+    {
+      "name": "HTML",
+      "link": "https://www.youtube.com/embed/2QR11oDukn4?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+    },
+    {
+      "name": "Media Elements",
+      "link": "https://www.youtube.com/embed/jRAZlTEZi9I?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+    },
+    {
+      "name": "Structuring a mega project",
+      "link": "https://www.youtube.com/embed/61ppyY5rUB0?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n"
+    }
+  ]
+
 }
 ###
 POST http://localhost:4000/contactus-api/contactus
@@ -38,4 +64,12 @@ Content-Type: application/json
   "cpassword": " ",
   "terms": true,
   "id": 1
+}
+###
+POST https://automation.vnrvjiet.ac.in/EduPrime2/EduPrime/Login
+Content-Type: application/json
+
+{
+  "username":"20071a0518",
+  "password":"Rinku@2002"
 }

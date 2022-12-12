@@ -6,6 +6,7 @@ import Contactus from './components/contactus';
 import Courses from './components/courses';
 import Course from './components/course';
 import Signup from './components/form';
+import CreateCourse from './components/createcourse';
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,8 +39,8 @@ function App() {
           </li>
           <li className="nav-item">
             { ui.length==0?
-              <Link className="nav-link active nav" to="/login"><FontAwesomeIcon icon={faUser}/ > Login</Link>:
-              <Link className="nav-link active nav" to="/login"><FontAwesomeIcon icon={faUser}/ > {ui[0].username}</Link>
+              <Link className="nav-link active nav" to="/login"><FontAwesomeIcon icon={faUser} /> Login</Link>:
+              <Link className="nav-link active nav" to="/login"><FontAwesomeIcon icon={faUser} /> {ui[0].username}</Link>
             }
           </li>
         </ul>
@@ -56,7 +57,13 @@ function App() {
         <Route path="/contactus" element={<Contactus />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="signup" element={<Signup />} />
+        <Route path="/createcourse" element={<CreateCourse/>}/>
       </Routes>
+
+      {
+        ui.length==1 &&
+        <Link className="nav-link active nav" to="/createcourse">CreateCourse</Link>
+      }
 
     </div>
   );
